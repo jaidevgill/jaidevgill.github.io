@@ -68,6 +68,11 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.shadow-img {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* X, Y, blur, color */
+  border-radius: 8px;               /* Optional: for rounded corners */
+}
+
 span.highlight {
   background-color: #ffffd0;
 }
