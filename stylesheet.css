@@ -69,14 +69,10 @@ h2 {
 }
 
 .shadow-img {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3); /* X, Y, blur, color */
-  border-radius: 8px;               /* Optional: for rounded corners */
-}
-
-.shadow-img-profile {
   box-shadow: 0 4px 8px rgba(0,0,0,0.5); /* X, Y, blur, color */
   border-radius: 8px;               /* Optional: for rounded corners */
 }
+
 
 span.highlight {
   background-color: #ffffd0;
