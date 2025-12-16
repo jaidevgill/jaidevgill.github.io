@@ -73,21 +73,21 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-                        <tr onmouseout="net_contr_stop()" onmouseover="net_contr_start()">
+              <tr onmouseout="net_contr_stop()" onmouseover="net_contr_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='bkfl_image'>
+                  <div class="two" id='net2_image'>
                   <img src="images/net_contr_before.png" width=100% class="shadow-img">
                   </div>
                   <img src='images/net_contr_after.png' width=100% class="shadow-img">
                 </div>
                 <script type="text/javascript">
                   function net_contr_start() {
-                    document.getElementById('bkfl_image').style.opacity = "1";
+                    document.getElementById('net2_image').style.opacity = "1";
                   }
         
                   function net_contr_stop() {
-                    document.getElementById('bkfl_image').style.opacity = "0";
+                    document.getElementById('net2_image').style.opacity = "0";
                   }
                   fluo_book_stop()
                 </script>
@@ -114,18 +114,18 @@
             <tr onmouseout="net_obsv_stop()" onmouseover="net_obsv_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
-                  <div class="two" id='bkfl_image'>
+                  <div class="two" id='net1_image'>
                   <img src="images/net_obsv_before.png" width=100% class="shadow-img">
                   </div>
                   <img src='images/net_obsv_after.png' width=100% class="shadow-img">
                 </div>
                 <script type="text/javascript">
                   function net_obsv_start() {
-                    document.getElementById('bkfl_image').style.opacity = "1";
+                    document.getElementById('net1_image').style.opacity = "1";
                   }
         
                   function net_obsv_stop() {
-                    document.getElementById('bkfl_image').style.opacity = "0";
+                    document.getElementById('net1_image').style.opacity = "0";
                   }
                   fluo_book_stop()
                 </script>
