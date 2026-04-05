@@ -73,6 +73,46 @@
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+            <tr onmouseout="n_mpc_stop()" onmouseover="n_mpc_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='n_mpc_image'>
+                  <img src="images/neural_mpc_before.png" width=100% class="shadow-img">
+                  </div>
+                  <img src='images/neural_mpc_after.png' width=100% class="shadow-img">
+                </div>
+                <script type="text/javascript">
+                  function n_mpc_start() {
+                    document.getElementById('n_mpc_image').style.opacity = "1";
+                  }
+        
+                  function n_mpc_stop() {
+                    document.getElementById('n_mpc_image').style.opacity = "0";
+                  }
+                  n_mpc_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://scholar.google.com/scholar_lookup?arxiv_id=2603.25959">
+                  <span class="papertitle">Firing Rate Neural Network Implementations of Model Predictive Control</span>
+                </a>
+                <br>
+                <strong style="color: #00274C;">Jaidev Gill</strong>,
+            Jing Shuang (Lisa) Li.
+            <br>
+            <em></em>
+            <br>
+                <a href="">ACC 2026</a>
+                /
+                <a href="https://doi.org/10.48550/arXiv.2603.25959">arXiv</a>
+                <p></p>
+                <p>
+                Neural Network based MPC with alternative biologically plausible implementations. 
+                </p>
+              </td>
+            </tr>
+
+
               <tr onmouseout="net_contr_stop()" onmouseover="net_contr_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
@@ -89,7 +129,7 @@
                   function net_contr_stop() {
                     document.getElementById('net2_image').style.opacity = "0";
                   }
-                  fluo_book_stop()
+                  net_contr_stop()
                 </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
@@ -102,6 +142,8 @@
             <br>
             <em></em>
             <br>
+                <a href="">ACC 2026</a>
+                /
                 <a href="https://arxiv.org/abs/2509.13505">arXiv</a>
                 <p></p>
                 <p>
@@ -127,7 +169,7 @@
                   function net_obsv_stop() {
                     document.getElementById('net1_image').style.opacity = "0";
                   }
-                  fluo_book_stop()
+                  net_obsv_stop()
                 </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
@@ -140,6 +182,8 @@
             <br>
             <em></em>
             <br>
+                <a href="">ACC 2026</a>
+                /
                 <a href="https://arxiv.org/abs/2509.14065">arXiv</a>
                 <p></p>
                 <p>
